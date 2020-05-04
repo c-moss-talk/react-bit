@@ -4,7 +4,7 @@ import Svg, { Path } from "svgs";
 const ArrowUp = ({
   width = 10,
   height = 16,
-  fill = "#0FC1A7",
+  fill = "#FFC1A7",
   ...otherProps
 }) => (
   <Svg width={width} height={height} viewBox="0 0 10 16" {...otherProps}>
