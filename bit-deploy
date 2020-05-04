@@ -1,10 +1,13 @@
 
-CIRCLE_COMPARE_URL=https://github.com/c-moss-talk/react-bit/commit/27b2725230114d0da2a36e65ff30203bf0e78449
-
+# Run the script to detect changes
 ../entria-deploy/bin/cli components
 
-bit tag --all -i && bit export --eject
+# Run the bit commands
+# bit tag --all && bit export --eject
 
-git add .
+# Stage changes
+# git checkout develop
+# git add .
 
-git commit -m "remove staged bit component and bump version"
+# 
+# git commit -m "remove staged bit component and bump version"

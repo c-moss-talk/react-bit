@@ -1,0 +1,91 @@
+{
+  "name": "@bit/ssomnoremac.components.svgs.arrow-up",
+  "version": "1.0.3",
+  "homepage": "https://bit.dev/ssomnoremac/components/svgs/arrow-up",
+  "main": "dist/ArrowUp.js",
+  "dependencies": {
+    "svgs": "4.1.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react-native": "*",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": {
+        "bit.envs/compilers/react-typescript@3.1.41": {
+          "rawConfig": {
+            "compilerPath": "typescript/bin/tsc",
+            "compilerArguments": [
+              "--declaration"
+            ],
+            "compiledFileTypes": [
+              ".ts",
+              ".tsx"
+            ],
+            "configFileName": "tsconfig.json",
+            "tsconfig": {
+              "compilerOptions": {
+                "outDir": "dist",
+                "target": "ES2015",
+                "sourceMap": false,
+                "moduleResolution": "Node",
+                "esModuleInterop": true,
+                "module": "ES6",
+                "allowSyntheticDefaultImports": true,
+                "resolveJsonModule": true,
+                "declaration": true,
+                "experimentalDecorators": true,
+                "inlineSourceMap": false,
+                "inlineSources": false,
+                "lib": [
+                  "es2017",
+                  "dom"
+                ],
+                "jsx": "react",
+                "rootDir": "./",
+                "removeComments": true,
+                "typeRoots": [
+                  "./node_modules/@types"
+                ],
+                "importHelpers": false
+              },
+              "include": [
+                "./**/*"
+              ],
+              "exclude": [
+                "node_modules",
+                ".dependencies",
+                "dist"
+              ]
+            },
+            "development": false,
+            "copyPolicy": {
+              "ignorePatterns": [
+                "package.json",
+                "package-lock.json",
+                "tsconfig.json"
+              ],
+              "disable": false
+            }
+          },
+          "options": {},
+          "files": {}
+        }
+      }
+    },
+    "overrides": {
+      "dependencies": {
+        "react": "-"
+      },
+      "peerDependencies": {
+        "react-native": "*"
+      }
+    }
+  }
+}
