@@ -1,7 +1,7 @@
 
 CIRCLE_COMPARE_URL=https://github.com/c-moss-talk/react-bit/commit/e6801e3383e0e1ad4d449b780612e6768c4396f2
 
-npx @entria/deploy components
+../entria-deploy/bin/cli components
 
 bit tag --all && bit export --eject
 
