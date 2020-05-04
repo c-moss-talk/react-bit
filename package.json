@@ -8,7 +8,8 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "@bit/ssomnoremac.components.svgs.arrow-up": "file:./packages/components/svgs/arrow-up"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +31,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bit": {
+    "env": {
+      "compiler": {
+        "bit.envs/compilers/react-typescript@3.1.41": {
+          "rawConfig": {
+            "tsconfig": {
+              "compilerOptions": {
+                "lib": [
+                  "es2017",
+                  "dom"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "componentsDefaultDirectory": "packages/components"
   }
 }
