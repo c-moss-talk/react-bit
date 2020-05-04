@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bit/ssomnoremac.components.svgs.arrow-up": "file:./packages/components/svgs/arrow-up",
     "@entria/deploy": "https://github.com/entria/entria-deploy.git",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -11,7 +10,8 @@
     "global": "^4.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "@bit/ssomnoremac.components.svgs.arrow-up": "1.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
